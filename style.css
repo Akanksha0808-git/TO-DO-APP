@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#tasklist{
+    position: absolute;
+    top: 50px;
+    left: 155px;
+}
+.Task{
+    font-size: 50px;
+    color: #fff;
+}
+.List{
+position: absolute;
+left: 120px;
+font-size: 40px;
+top: 10px;
+color: #fff;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#image1{
+    height: 38px;
+    position: absolute;
+    top: 62px;
+    right: 337px;
+    cursor: pointer;
+}
+.additem-text{
+    font-size: 28px;
+    top: 64px;
+    right: 212px;
+    position: absolute;
+    color: #fff;
+}
+
+.popup{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 200px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+    
+    
+}
+.head{
+    /* height: 60px; */
+    background-color: #fff;
+    color: rgb(232, 79, 24);
+
+}
+#text{
+/* padding-top: 30px; */
+margin-top: 15px;
+background-color: #fff;
+border-radius: 3px;
+height: 35px;
+width: 90%;
+}
+.button{
+    display: inline-block;
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+}
+.addbutton{
+  top: 152px ;
+}
+.closebutton{
+    top: 152px ;
+    left: 210px;
+}
+.invisible-text{
+    display: inline-block;
+    color: #fff;
+    position: absolute;
+    top: 120px;
+    font-size: 25px;
+    left: 160px;
+}
+
+.button3{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: black; 
+    border-radius: 50%; 
+    font-size: 25px;
+    border: none;
+    color:#fff;
+    bottom: 10px;
+    right: 50px;
+    cursor: pointer;
+}
+.button4{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom:10px ;
+    right: 5px;
+  font-size: 25px;
+    color: #fff;
+    border-radius: 50%; 
+    cursor: pointer;
+
+
+}
+
+#todos{ 
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    height: 90vh;
+    width: 1300px;
+  /* border: 2px solid #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    gap: 10px; 
+}
+.box{
+    top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    color: #b92929;
+    /* min-height: 100px; */
+    max-height: 400px;
+    /* height: auto; */
+    width: 240px;
+    border: 2px solid #5f2b2b;
+    border-radius: 10px;
+    margin: 5px;
+}
+#h4{
+
+   height: 50px; 
+   width: 235px;
+   border-radius: 10px;
+   font-size: 20px;
+   border: 2px solid #fff;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+h3{
+    background-color: #fff;
+    margin-left:10px;
+    margin-bottom: 4px;
+}
+#done{
+    background-color: orangered;
+    position: absolute;
+    right: 6px;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 20px;
+    font-size: 13px;
+}
+.list{
+    color: #fff;}
+
+
+    /* --------------------------media query----------------------- */
+
+    @media screen and (min-width: 350px) and (max-width: 730px) {
+
+       #tasklist{
+        position: absolute;
+        top: 50px;
+        left: 14px;
+        font-size: 30px;
+       }
+       .list{
+        top: 10px;
+        color: #fff;
+       }
+#image1{
+    position: absolute;
+ 
+    right: 170px;
+}
+
+.additem-text{
+    position: absolute;
+    /* overflow-x: hidden; */
+    right: 40px; 
+}
+.invisible-text{
+    position: absolute;
+   
+    left: 16px;
+    top: 140px;
+}
+.popup{
+    overflow-x: hidden;
+    top: 30%;
+    left: 24%;
+}
+#todos{
+    right: 25px;
+    width: auto;
+    left: 26px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    }
+
+
+    
