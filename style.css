@@ -1,7 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    /* height: 100vh; */
     background-color: black;
+}
+.main-container{
+    height: auto;
 }
 
 #tasklist{
@@ -39,10 +43,11 @@ font-family: 'Courier New', Courier, monospace;
 
 .popup{
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 20%;
+    /* left: 20px; */
+    /* left: 80%; */
     height: 200px;
-    width: 300px;
+    width: 260px;
     background-color: #fff;
     text-align: center;
     padding: 20px;
@@ -192,14 +197,12 @@ h3{
        }
 #image1{
     position: absolute;
- 
-    right: 170px;
+     /* top: 20px; */
+    right: 30px;
 }
 
 .additem-text{
-    position: absolute;
-    /* overflow-x: hidden; */
-    right: 40px; 
+   display: none; 
 }
 .invisible-text{
     position: absolute;
